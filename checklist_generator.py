@@ -3,7 +3,6 @@
 import typer
 from datetime import datetime, timedelta
 import icalendar
-import markdown
 import re
 from pathlib import Path
 from typing import Optional
@@ -52,10 +51,7 @@ def parse_markdown_tasks(md_file: Path) -> str:
         with open(md_file, 'r') as f:
             content = f.read()
         
-        # Convert markdown to HTML to parse the list structure
-        html = markdown.markdown(content)
-        
-        # Now convert HTML list items to Typst checklist items
+        # Convert markdown bullet points to Typst checklist items
         tasks = []
         for line in content.split('\n'):
             if line.strip().startswith('- '):
