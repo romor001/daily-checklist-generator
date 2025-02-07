@@ -83,19 +83,24 @@ def escape_typst_string(s: str) -> str:
     s = s.replace('\\', '\\\\').replace('"', '\\"')
     return s
 
-def get_calendar_events(ics_file: Path, date: datetime.date) -> Optional[str]:
+def get_calendar_events(ics_file: Path, date: datetime) -> Optional[str]:
     """Get events for a specific date from ICS file."""
     try:
         with open(ics_file, 'rb') as f:
+            # The icalendar module expects bytes input, so this is correct
             cal = icalendar.Calendar.from_ical(f.read())
         
         events = []
         for event in cal.walk('vevent'):
             event_date = event.get('dtstart').dt
+            # No need to convert - keep both as datetime for comparison
             if isinstance(event_date, datetime):
-                event_date = event_date.date()
-            
-            if event_date == date:
+                # Compare only the date parts
+                if event_date.date() == date.date():
+                    summary = str(event.get('summary'))
+                    escaped_summary = escape_typst_string(summary)
+                    events.append(f"#task(\"{escaped_summary}\")[*{escaped_summary}*]")
+            elif event_date == date.date():  # For all-day events that are already date objects
                 summary = str(event.get('summary'))
                 escaped_summary = escape_typst_string(summary)
                 events.append(f"#task(\"{escaped_summary}\")[*{escaped_summary}*]")
@@ -113,8 +118,8 @@ def generate_notes_section() -> str:
     return "#line(length: 100%)\n#v(1.4em)\n" * 8
 
 def generate_typst_document(
-    start_date: datetime.date,
-    end_date: datetime.date,
+    start_date: datetime,
+    end_date: datetime,
     tasks_md: Path,
     calendar_file: Path,
     output_file: Path
@@ -191,7 +196,7 @@ def generate_typst_document(
             
             pages.append(page)
             
-            current_date += timedelta(days=1)
+            current_date = current_date + timedelta(days=1)
             progress.update(1)
     
     # Complete document
@@ -248,8 +253,8 @@ def generate(
 ) -> None:
     """Generate daily checklist in Typst format with optional PDF compilation."""
     generate_typst_document(
-        start_date.date(),
-        end_date.date(),
+        start_date,  # Now passing datetime.datetime directly
+        end_date,    # Now passing datetime.datetime directly
         tasks,
         calendar,
         output
