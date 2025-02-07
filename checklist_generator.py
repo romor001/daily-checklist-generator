@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 
-import argparse
+import typer
 from datetime import datetime, timedelta
 import icalendar
 import markdown
 import re
 from pathlib import Path
+from typing import Optional
+import subprocess
 
 # Configuration
 HEADER_TEXT = "FH Südwestfalen - Kokerei Hansa - Gloria"
 LOGO_PATH = "logo.png"  # Logo file in the same directory
+
+# Create Typer app instance
+app = typer.Typer(help="Generate daily checklist in Typst format")
 
 # Typst document template
 TYPST_TEMPLATE = '''
@@ -41,7 +46,7 @@ PAGE_TEMPLATE = '''
 ]
 '''
 
-def parse_markdown_tasks(md_file):
+def parse_markdown_tasks(md_file: Path) -> str:
     """Parse markdown file and convert bullets to Typst checklist items."""
     try:
         with open(md_file, 'r') as f:
@@ -74,16 +79,16 @@ def parse_markdown_tasks(md_file):
         
         return '\n'.join(tasks)
     except Exception as e:
-        print(f"Error parsing markdown file: {e}")
-        return "Error parsing tasks"
+        typer.secho(f"Error parsing markdown file: {e}", fg=typer.colors.RED)
+        raise typer.Exit(1)
 
-def escape_typst_string(s):
+def escape_typst_string(s: str) -> str:
     """Escape special characters for Typst string literals."""
     # Escape backslashes first, then quotes
     s = s.replace('\\', '\\\\').replace('"', '\\"')
     return s
 
-def get_calendar_events(ics_file, date):
+def get_calendar_events(ics_file: Path, date: datetime.date) -> Optional[str]:
     """Get events for a specific date from ICS file."""
     try:
         with open(ics_file, 'rb') as f:
@@ -103,20 +108,25 @@ def get_calendar_events(ics_file, date):
         # Return None if no events, otherwise join them with newlines
         return '\n'.join(events) if events else None
     except Exception as e:
-        print(f"Error reading calendar file: {e}")
+        typer.secho(f"Error reading calendar file: {e}", fg=typer.colors.RED)
         return None
 
-def generate_notes_section():
-    """Generate lined notes section with double spacing.
-    Return a flexible number of lines that will fit on one page."""
+def generate_notes_section() -> str:
+    """Generate lined notes section with double spacing."""
     # Return lines with extra vertical space between them
     # Reduce the number of lines to ensure everything fits on one page
     return "#line(length: 100%)\n#v(1.4em)\n" * 8
 
-def generate_typst_document(start_date, end_date, tasks_md, calendar_file, output_file):
+def generate_typst_document(
+    start_date: datetime.date,
+    end_date: datetime.date,
+    tasks_md: Path,
+    calendar_file: Path,
+    output_file: Path
+) -> None:
     """Generate the complete Typst document."""
     # Ensure output directory exists
-    output_dir = Path(output_file).parent
+    output_dir = output_file.parent
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Copy template.typ to output directory if it's not there
@@ -127,8 +137,8 @@ def generate_typst_document(start_date, end_date, tasks_md, calendar_file, outpu
             import shutil
             shutil.copy2(template_source, template_dest)
         except Exception as e:
-            print(f"Warning: Could not copy template file: {e}")
-            print("Please ensure template.typ is in the same directory as the output file.")
+            typer.secho(f"Warning: Could not copy template file: {e}", fg=typer.colors.YELLOW)
+            typer.echo("Please ensure template.typ is in the same directory as the output file.")
     
     # German weekday and month names
     WEEKDAYS_DE = {
@@ -159,30 +169,35 @@ def generate_typst_document(start_date, end_date, tasks_md, calendar_file, outpu
     pages = []
     current_date = start_date
     
-    while current_date <= end_date:
-        # Get English date format first
-        eng_date = current_date.strftime("%A, %B %d, %Y")
-        
-        # Convert to German
-        for eng, de in WEEKDAYS_DE.items():
-            eng_date = eng_date.replace(eng, de)
-        for eng, de in MONTHS_DE.items():
-            eng_date = eng_date.replace(eng, de)
+    with typer.progressbar(
+        length=(end_date - start_date).days + 1,
+        label="Generating pages"
+    ) as progress:
+        while current_date <= end_date:
+            # Get English date format first
+            eng_date = current_date.strftime("%A, %B %d, %Y")
             
-        tasks = parse_markdown_tasks(tasks_md)
-        events = get_calendar_events(calendar_file, current_date)
-        notes = generate_notes_section()
-        
-        page = PAGE_TEMPLATE.format(
-            date=eng_date,
-            tasks=tasks,
-            events=events,
-            notes=notes
-        ).replace('Events', 'Termine').replace('Notes', 'Notizen')
-        
-        pages.append(page)
-        
-        current_date += timedelta(days=1)
+            # Convert to German
+            for eng, de in WEEKDAYS_DE.items():
+                eng_date = eng_date.replace(eng, de)
+            for eng, de in MONTHS_DE.items():
+                eng_date = eng_date.replace(eng, de)
+                
+            tasks = parse_markdown_tasks(tasks_md)
+            events = get_calendar_events(calendar_file, current_date)
+            notes = generate_notes_section()
+            
+            page = PAGE_TEMPLATE.format(
+                date=eng_date,
+                tasks=tasks,
+                events=events if events else "",
+                notes=notes
+            ).replace('Events', 'Termine').replace('Notes', 'Notizen')
+            
+            pages.append(page)
+            
+            current_date += timedelta(days=1)
+            progress.update(1)
     
     # Complete document
     document = TYPST_TEMPLATE.format(
@@ -194,36 +209,72 @@ def generate_typst_document(start_date, end_date, tasks_md, calendar_file, outpu
     with open(output_file, 'w') as f:
         f.write(document)
         
-    print(f"Generated Typst document: {output_file}")
-    print("To compile to PDF, run:")
-    print(f"typst compile {output_file} {Path(output_file).stem}.pdf")
+    typer.secho(f"Generated Typst document: {output_file}", fg=typer.colors.GREEN)
 
-def main():
-    parser = argparse.ArgumentParser(description='Generate daily checklist in Typst format')
-    parser.add_argument('--start-date', required=True, help='Start date (YYYY-MM-DD)')
-    parser.add_argument('--end-date', required=True, help='End date (YYYY-MM-DD)')
-    parser.add_argument('--tasks', required=True, help='Path to markdown tasks file')
-    parser.add_argument('--calendar', required=True, help='Path to ICS calendar file')
-    parser.add_argument('--output', required=True, help='Output Typst file')
-    parser.add_argument('--compile', action='store_true', help='Compile to PDF after generating Typst file')
+@app.command()
+def generate(
+    start_date: datetime = typer.Argument(
+        ...,
+        help="Start date (YYYY-MM-DD)",
+        formats=["%Y-%m-%d"]
+    ),
+    end_date: datetime = typer.Argument(
+        ...,
+        help="End date (YYYY-MM-DD)",
+        formats=["%Y-%m-%d"]
+    ),
+    tasks: Path = typer.Option(
+        ...,
+        "--tasks", "-t",
+        help="Path to markdown tasks file",
+        exists=True,
+        file_okay=True,
+        dir_okay=False
+    ),
+    calendar: Path = typer.Option(
+        ...,
+        "--calendar", "-c",
+        help="Path to ICS calendar file",
+        exists=True,
+        file_okay=True,
+        dir_okay=False
+    ),
+    output: Path = typer.Option(
+        ...,
+        "--output", "-o",
+        help="Output Typst file"
+    ),
+    compile: bool = typer.Option(
+        False,
+        "--compile",
+        help="Compile to PDF after generating Typst file",
+        is_flag=True
+    )
+) -> None:
+    """Generate daily checklist in Typst format with optional PDF compilation."""
+    generate_typst_document(
+        start_date.date(),
+        end_date.date(),
+        tasks,
+        calendar,
+        output
+    )
     
-    args = parser.parse_args()
-    
-    start_date = datetime.strptime(args.start_date, '%Y-%m-%d').date()
-    end_date = datetime.strptime(args.end_date, '%Y-%m-%d').date()
-    
-    generate_typst_document(start_date, end_date, args.tasks, args.calendar, args.output)
-    
-    if args.compile:
+    if compile:
         try:
-            import subprocess
-            output_pdf = Path(args.output).stem + '.pdf'
-            subprocess.run(['typst', 'compile', args.output, output_pdf], check=True)
-            print(f"Generated PDF: {output_pdf}")
+            output_pdf = output.with_suffix('.pdf')
+            typer.echo("Compiling PDF...")
+            subprocess.run(['typst', 'compile', str(output), str(output_pdf)], check=True)
+            typer.secho(f"Generated PDF: {output_pdf}", fg=typer.colors.GREEN)
         except subprocess.CalledProcessError as e:
-            print(f"Error compiling PDF: {e}")
+            typer.secho(f"Error compiling PDF: {e}", fg=typer.colors.RED)
+            raise typer.Exit(1)
         except FileNotFoundError:
-            print("Error: typst command not found. Please ensure Typst is installed and in your PATH.")
+            typer.secho(
+                "Error: typst command not found. Please ensure Typst is installed and in your PATH.",
+                fg=typer.colors.RED
+            )
+            raise typer.Exit(1)
 
 if __name__ == "__main__":
-    main()
+    app()
