@@ -2,2308 +2,1652 @@
 #import "template.typ": *
 
 #show: project.with(
-  title: "Daily Checklist",
+  title: "FH Südwestfalen - Kokerei Hansa - Gloria",
   logo: "logo.png"
 )
 
 
 #page[
-  = Saturday, February 01, 2025
+  = Samstag, März 01, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  #task("Desinfektionsspender auffüllen")[*Desinfektionsspender auffüllen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Sunday, February 02, 2025
+  = Sonntag, März 02, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  #task("Hobo Datenlogger auslesen")[*Hobo Datenlogger auslesen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Monday, February 03, 2025
+  = Montag, März 03, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  #task("Müll wegbringen")[*Müll wegbringen*]
+#task("Eurofins Wasseproben nehmen")[*Eurofins Wasseproben nehmen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Tuesday, February 04, 2025
+  = Dienstag, März 04, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  #task("Pflanzplanung und Saisonorga mit Nils")[*Pflanzplanung und Saisonorga mit Nils*]
+  == weitere Aufgaben
+  #task("Zuläufe AutoPots kontrollieren und reinigen")[*Zuläufe AutoPots kontrollieren und reinigen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Wednesday, February 05, 2025
+  = Mittwoch, März 05, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  #task("Nils: Tägliche Systemkontrolle")[*Nils: Tägliche Systemkontrolle*]
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Thursday, February 06, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  #task("???: Tägliche Systemkontrolle")[*???: Tägliche Systemkontrolle*]
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Friday, February 07, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
+  == weitere Aufgaben
   #task("???: durchsaugen")[*???: durchsaugen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Saturday, February 08, 2025
+  = Donnerstag, März 06, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  #task("RFS-Sedimenter reinigen")[*RFS-Sedimenter reinigen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Sunday, February 09, 2025
+  = Freitag, März 07, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Monday, February 10, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Tuesday, February 11, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Wednesday, February 12, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Thursday, February 13, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  #task("???: tägliche Systemkontrolle")[*???: tägliche Systemkontrolle*]
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Friday, February 14, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Saturday, February 15, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Sunday, February 16, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Monday, February 17, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Tuesday, February 18, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Wednesday, February 19, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Thursday, February 20, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Friday, February 21, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Saturday, February 22, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Sunday, February 23, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Monday, February 24, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Tuesday, February 25, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Wednesday, February 26, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Thursday, February 27, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Friday, February 28, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Saturday, March 01, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Sunday, March 02, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Monday, March 03, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Tuesday, March 04, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Wednesday, March 05, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
+  == weitere Aufgaben
   #task("???: durchsaugen")[*???: durchsaugen*]
+#task("Fischfutter einwiegen")[*Fischfutter einwiegen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Thursday, March 06, 2025
+  = Samstag, März 08, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  #task("Wasserwerte in Exceltabelle übertragen")[*Wasserwerte in Exceltabelle übertragen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Friday, March 07, 2025
+  = Sonntag, März 09, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  #task("???: durchsaugen")[*???: durchsaugen*]
+  == weitere Aufgaben
+  #task("Feuerlöscher prüfen")[*Feuerlöscher prüfen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Saturday, March 08, 2025
+  = Montag, März 10, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  #task("Regenrinne reinigen")[*Regenrinne reinigen*]
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Sunday, March 09, 2025
+  = Dienstag, März 11, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Monday, March 10, 2025
+  = Mittwoch, März 12, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Tuesday, March 11, 2025
+  = Donnerstag, März 13, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Wednesday, March 12, 2025
+  = Freitag, März 14, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Thursday, March 13, 2025
+  = Samstag, März 15, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Friday, March 14, 2025
+  = Sonntag, März 16, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Saturday, March 15, 2025
+  = Montag, März 17, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Sunday, March 16, 2025
+  = Dienstag, März 18, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Monday, March 17, 2025
+  = Mittwoch, März 19, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Tuesday, March 18, 2025
+  = Donnerstag, März 20, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Wednesday, March 19, 2025
+  = Freitag, März 21, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Thursday, March 20, 2025
+  = Samstag, März 22, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Friday, March 21, 2025
+  = Sonntag, März 23, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Saturday, March 22, 2025
+  = Montag, März 24, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Sunday, March 23, 2025
+  = Dienstag, März 25, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Monday, March 24, 2025
+  = Mittwoch, März 26, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Tuesday, March 25, 2025
+  = Donnerstag, März 27, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Wednesday, March 26, 2025
+  = Freitag, März 28, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Thursday, March 27, 2025
+  = Samstag, März 29, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Friday, March 28, 2025
+  = Sonntag, März 30, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 
 ]
 
 
 #page[
-  = Saturday, March 29, 2025
+  = Montag, März 31, 2025
 
   // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
+  #task("Sichtkontrolle Fischtanks", indent: 0)[*Sichtkontrolle Fischtanks*]
+#task("Tote Fische?", indent: 1)[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch]]
+#task("Zeigen Fische auffälliges Verhalten?", indent: 1)[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
+#task("Belüfter an und Belüftung der Fischtanks ok?", indent: 1)[*Belüfter an und Belüftung der Fischtanks ok?*]
+#task("Futter aus dem Lager holen und Fische füttern  - 1. Portion.", indent: 0)[*Futter aus dem Lager holen und Fische füttern  - 1. Portion.* #text(weight: "light", style: "italic")[Fressverhalten beobachten. Dokumentieren.]]
+#task("Sichtkontrolle Überlauf Open Gutter.", indent: 0)[*Sichtkontrolle Überlauf Open Gutter.* #text(weight: "light", style: "italic")[Ggf. Leistung Pumpe Aquakultur erhöhen.]]
+#task("Kontrolle Zuläufe", indent: 0)[*Kontrolle Zuläufe* #text(weight: "light", style: "italic")[Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.]]
+#task("Kontrolle Abläufe", indent: 0)[*Kontrolle Abläufe* #text(weight: "light", style: "italic")[Hähne alle richtig eingestellt? Ggf. korrigieren.]]
+#task("Sichtkontrolle RFS", indent: 0)[*Sichtkontrolle RFS* #text(weight: "light", style: "italic")[Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.]]
+#task("Sichtkontrolle Biofilter", indent: 0)[*Sichtkontrolle Biofilter* #text(weight: "light", style: "italic")[Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.]]
+#task("Sichtkontrolle Sumpftanks", indent: 0)[*Sichtkontrolle Sumpftanks* #text(weight: "light", style: "italic")[Füllstand ok?]]
+#task("Hydrokultur E&F Beete", indent: 0)[*Hydrokultur E&F Beete*]
+#task("Zulaufhähne checken", indent: 1)[*Zulaufhähne checken* #text(weight: "light", style: "italic")[Sollten weniger als halb offen sein.]]
+#task("Zustand Siphons", indent: 1)[*Zustand Siphons* #text(weight: "light", style: "italic")[Ziehen sie? Stoppen sie?]]
+#task("Fische füttern - 2. Portion", indent: 0)[*Fische füttern - 2. Portion*]
+#task("Pflanzen auf Insektenbefall prüfen", indent: 0)[*Pflanzen auf Insektenbefall prüfen*]
+#task("Füllstand Wasservorrat AutoPots prüfen", indent: 0)[*Füllstand Wasservorrat AutoPots prüfen* #text(weight: "light", style: "italic")[ggf. nachfüllen und Nährstoffe und pH justieren]]
+#task("Altes Pflanzenmaterial abpflücken und in den Kompost", indent: 0)[*Altes Pflanzenmaterial abpflücken und in den Kompost*]
 
   // Calendar events for the day
-  == Events
-  No events scheduled
+  == weitere Aufgaben
+  None
 
-  // Notes section
-  == Notes
+  // Notizen section
+  == Notizen und Beobachtungen
   #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
+#v(1em)
 #line(length: 100%)
-
-]
-
-
-#page[
-  = Sunday, March 30, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-
-]
-
-
-#page[
-  = Monday, March 31, 2025
-
-  // Regular tasks
-  #task("Sichtkontrolle Fischtanks")[*Sichtkontrolle Fischtanks*]
-  #task("Tote Fische?")[*Tote Fische?* #text(weight: "light", style: "italic")[Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch]]
-  #task("Zeigen Fische auffälliges Verhalten?")[*Zeigen Fische auffälliges Verhalten?* #text(weight: "light", style: "italic")[Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.]]
-  #task("Belüfter an und Belüftung der Fischtanks ok?")[*Belüfter an und Belüftung der Fischtanks ok?*]
-#task("Project Work")[*Project Work*]
-  #task("Code Review")[*Code Review* #text(weight: "light", style: "italic")[Check pending PRs]]
-  #task("Development Tasks")[*Development Tasks*]
-    #task("Write Tests")[*Write Tests* #text(weight: "light", style: "italic")[Ensure coverage above 80%]]
-    #task("Documentation Updates")[*Documentation Updates* #text(weight: "light", style: "italic")[Keep docs in sync with code]]
-  #task("Team Communication")[*Team Communication*]
-#task("End of Day")[*End of Day*]
-  #task("Commit Code")[*Commit Code* #text(weight: "light", style: "italic")[Ensure all work is pushed]]
-  #task("Update Status")[*Update Status* #text(weight: "light", style: "italic")[Report daily progress]]
-  #task("Plan Tomorrow")[*Plan Tomorrow* #text(weight: "light", style: "italic")[Set priorities for next day]]
-
-  // Calendar events for the day
-  == Events
-  No events scheduled
-
-  // Notes section
-  == Notes
-  #line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
-#line(length: 100%)
+#v(1em)
 
 ]
 

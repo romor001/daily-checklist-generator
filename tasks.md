@@ -1,14 +1,18 @@
 - Sichtkontrolle Fischtanks
-  - Tote Fische? (Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch))
+  - Tote Fische? (Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch)
   - Zeigen Fische auffälliges Verhalten? (Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.)
   - Belüfter an und Belüftung der Fischtanks ok?
-- Project Work
-  - Code Review (Check pending PRs)
-  - Development Tasks
-    - Write Tests (Ensure coverage above 80%)
-    - Documentation Updates (Keep docs in sync with code)
-  - Team Communication
-- End of Day
-  - Commit Code (Ensure all work is pushed)
-  - Update Status (Report daily progress)
-  - Plan Tomorrow (Set priorities for next day)
+- Futter aus dem Lager holen und Fische füttern  - 1. Portion. (Fressverhalten beobachten. Dokumentieren.)
+- Sichtkontrolle Überlauf Open Gutter. (Ggf. Leistung Pumpe Aquakultur erhöhen.)
+- Kontrolle Zuläufe (Ggf. Zulaufrohr abschrauben und auf Verschmutzung kontrollieren und reinigen.)
+- Kontrolle Abläufe (Hähne alle richtig eingestellt? Ggf. korrigieren.)
+- Sichtkontrolle RFS (Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.)
+- Sichtkontrolle Biofilter (Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.)
+- Sichtkontrolle Sumpftanks (Füllstand ok?)
+- Hydrokultur E&F Beete
+  - Zulaufhähne checken (Sollten weniger als halb offen sein.)
+  - Zustand Siphons (Ziehen sie? Stoppen sie?)
+- Fische füttern - 2. Portion
+- Pflanzen auf Insektenbefall prüfen
+- Füllstand Wasservorrat AutoPots prüfen (ggf. nachfüllen und Nährstoffe und pH justieren)
+- Altes Pflanzenmaterial abpflücken und in den Kompost

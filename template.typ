@@ -17,7 +17,8 @@
   set document(author: "", title: title)
   set page(
     paper: "a4",
-    margin: (left: 2.0cm, right: 2.0cm, top: 2.0cm, bottom: 2.0cm),
+    margin: (left: 2.0cm, right: 2.0cm, top: 3.5cm, bottom: 2.0cm),
+    header-ascent: 1.5cm,  // Determines how far up from the main text the header is placed
   )
   
   // Set font family to Lato

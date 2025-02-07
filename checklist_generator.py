@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 # Configuration
-HEADER_TEXT = "Daily Checklist"
+HEADER_TEXT = "FH Südwestfalen - Kokerei Hansa - Gloria"
 LOGO_PATH = "logo.png"  # Logo file in the same directory
 
 # Typst document template
@@ -32,11 +32,11 @@ PAGE_TEMPLATE = '''
   {tasks}
 
   // Calendar events for the day
-  == Events
+  == weitere Aufgaben
   {events}
 
   // Notes section
-  == Notes
+  == Notizen und Beobachtungen
   {notes}
 ]
 '''
@@ -97,18 +97,19 @@ def get_calendar_events(ics_file, date):
             
             if event_date == date:
                 summary = str(event.get('summary'))
-                # Escape special characters for Typst
                 escaped_summary = escape_typst_string(summary)
                 events.append(f"#task(\"{escaped_summary}\")[*{escaped_summary}*]")
         
-        return '\n'.join(events) if events else "No events scheduled"
+        # Return None if no events, otherwise join them with newlines
+        return '\n'.join(events) if events else None
     except Exception as e:
         print(f"Error reading calendar file: {e}")
-        return "Error reading calendar events"
+        return None
 
 def generate_notes_section():
-    """Generate lined notes section."""
-    return "#line(length: 100%)\n" * 10
+    """Generate lined notes section with double spacing."""
+    # Return lines with extra vertical space between them
+    return "#line(length: 100%)\n#v(1em)\n" * 10
 
 def generate_typst_document(start_date, end_date, tasks_md, calendar_file, output_file):
     """Generate the complete Typst document."""
@@ -127,21 +128,56 @@ def generate_typst_document(start_date, end_date, tasks_md, calendar_file, outpu
             print(f"Warning: Could not copy template file: {e}")
             print("Please ensure template.typ is in the same directory as the output file.")
     
+    # German weekday and month names
+    WEEKDAYS_DE = {
+        'Monday': 'Montag',
+        'Tuesday': 'Dienstag',
+        'Wednesday': 'Mittwoch',
+        'Thursday': 'Donnerstag',
+        'Friday': 'Freitag',
+        'Saturday': 'Samstag',
+        'Sunday': 'Sonntag'
+    }
+    
+    MONTHS_DE = {
+        'January': 'Januar',
+        'February': 'Februar',
+        'March': 'März',
+        'April': 'April',
+        'May': 'Mai',
+        'June': 'Juni',
+        'July': 'Juli',
+        'August': 'August',
+        'September': 'September',
+        'October': 'Oktober',
+        'November': 'November',
+        'December': 'Dezember'
+    }
+    
     pages = []
     current_date = start_date
     
     while current_date <= end_date:
-        formatted_date = current_date.strftime("%A, %B %d, %Y")
+        # Get English date format first
+        eng_date = current_date.strftime("%A, %B %d, %Y")
+        
+        # Convert to German
+        for eng, de in WEEKDAYS_DE.items():
+            eng_date = eng_date.replace(eng, de)
+        for eng, de in MONTHS_DE.items():
+            eng_date = eng_date.replace(eng, de)
+            
         tasks = parse_markdown_tasks(tasks_md)
         events = get_calendar_events(calendar_file, current_date)
         notes = generate_notes_section()
         
         page = PAGE_TEMPLATE.format(
-            date=formatted_date,
+            date=eng_date,
             tasks=tasks,
             events=events,
             notes=notes
-        )
+        ).replace('Events', 'Termine').replace('Notes', 'Notizen')
+        
         pages.append(page)
         
         current_date += timedelta(days=1)
