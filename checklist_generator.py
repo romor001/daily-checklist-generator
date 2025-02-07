@@ -3,7 +3,6 @@
 import typer
 from datetime import datetime, timedelta
 import icalendar
-import re
 from pathlib import Path
 from typing import Optional
 import subprocess
@@ -56,7 +55,7 @@ def parse_markdown_tasks(md_file: Path) -> str:
         for line in content.split('\n'):
             if line.strip().startswith('- '):
                 # Count leading spaces for indentation
-                indent_spaces = len(re.match(r'^[\s]*', line).group())
+                indent_spaces = len(line) - len(line.lstrip())
                 indent_level = indent_spaces // 2  # Convert spaces to indent level
                 task_text = line.strip('- ').strip()
                 
