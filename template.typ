@@ -18,9 +18,6 @@
   
   // Define header content that will be used on each page
   let header-content = {
-    // Ensure there's space above the header
-    v(1.0cm)
-    
     grid(
       columns: (auto, 1fr),
       gutter: 1em,
@@ -31,17 +28,14 @@
         #text(size: 1.5em, weight: "bold")[#title]
       ]
     )
-    line(length: 100%)
-    
-    // Space between header and content
-    v(1.0cm)
   }
   
   // Set page properties including the header for all pages
   set page(
     paper: "a4",
-    margin: (left: 2.0cm, right: 2.0cm, top: 3.5cm, bottom: 2.0cm),
-    header: header-content
+    margin: (left: 2.0cm, right: 2.0cm, top: 6cm, bottom: 2.0cm),
+    header: header-content,
+    header-ascent: 10%
   )
   
   // Set font family to Lato for the whole document
