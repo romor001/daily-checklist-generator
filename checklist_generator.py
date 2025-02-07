@@ -107,9 +107,11 @@ def get_calendar_events(ics_file, date):
         return None
 
 def generate_notes_section():
-    """Generate lined notes section with double spacing."""
+    """Generate lined notes section with double spacing.
+    Return a flexible number of lines that will fit on one page."""
     # Return lines with extra vertical space between them
-    return "#line(length: 100%)\n#v(1em)\n" * 10
+    # Reduce the number of lines to ensure everything fits on one page
+    return "#line(length: 100%)\n#v(1em)\n" * 6
 
 def generate_typst_document(start_date, end_date, tasks_md, calendar_file, output_file):
     """Generate the complete Typst document."""

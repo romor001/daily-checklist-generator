@@ -33,7 +33,7 @@
   // Set page properties including the header for all pages
   set page(
     paper: "a4",
-    margin: (left: 2.0cm, right: 2.0cm, top: 6cm, bottom: 2.0cm),
+    margin: (left: 2.0cm, right: 2.0cm, top: 6cm, bottom: 0cm),
     header: header-content,
     header-ascent: 10%
   )
