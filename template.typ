@@ -15,35 +15,41 @@
 ) = {
   // Set the document's basic properties
   set document(author: "", title: title)
+  
+  // Define header content that will be used on each page
+  let header-content = {
+    // Ensure there's space above the header
+    v(1.0cm)
+    
+    grid(
+      columns: (auto, 1fr),
+      gutter: 1em,
+      if logo != none {
+        image(logo, width: 2cm)
+      },
+      align(right + horizon)[
+        #text(size: 1.5em, weight: "bold")[#title]
+      ]
+    )
+    line(length: 100%)
+    
+    // Space between header and content
+    v(1.0cm)
+  }
+  
+  // Set page properties including the header for all pages
   set page(
     paper: "a4",
     margin: (left: 2.0cm, right: 2.0cm, top: 3.5cm, bottom: 2.0cm),
-    header-ascent: 1.5cm,  // Determines how far up from the main text the header is placed
+    header: header-content
   )
   
-  // Set font family to Lato
+  // Set font family to Lato for the whole document
   set text(font: "Lato")
   
-  // Headers
+  // Headers style
   show heading: set text(font: "Lato")
-  
-  // Header with logo and title
-  set page(
-    header: {
-      grid(
-        columns: (auto, 1fr),
-        gutter: 1em,
-        if logo != none {
-          image(logo, width: 2cm)
-        },
-        align(right + horizon)[
-          #text(size: 1.5em, weight: "bold")[#title]
-        ]
-      )
-      line(length: 100%)
-    }
-  )
 
-  // Main body
+  // Main content
   body
 }
