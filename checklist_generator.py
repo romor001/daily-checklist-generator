@@ -111,7 +111,7 @@ def generate_notes_section():
     Return a flexible number of lines that will fit on one page."""
     # Return lines with extra vertical space between them
     # Reduce the number of lines to ensure everything fits on one page
-    return "#line(length: 100%)\n#v(1em)\n" * 6
+    return "#line(length: 100%)\n#v(1.4em)\n" * 8
 
 def generate_typst_document(start_date, end_date, tasks_md, calendar_file, output_file):
     """Generate the complete Typst document."""

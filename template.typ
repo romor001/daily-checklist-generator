@@ -17,25 +17,27 @@
   set document(author: "", title: title)
   
   // Define header content that will be used on each page
-  let header-content = {
+  let header-content = {    
     grid(
-      columns: (auto, 1fr),
+      columns: (1fr, auto),  // Swapped: first column flexible, second fixed
       gutter: 1em,
-      if logo != none {
-        image(logo, width: 2cm)
-      },
-      align(right + horizon)[
+      align(left + horizon)[
         #text(size: 1.5em, weight: "bold")[#title]
-      ]
+      ],
+      if logo != none {
+        align(right)[
+          #image(logo, width: 2cm)
+        ]
+      }
     )
   }
   
   // Set page properties including the header for all pages
   set page(
     paper: "a4",
-    margin: (left: 2.0cm, right: 2.0cm, top: 6cm, bottom: 0cm),
+    margin: (left: 0cm, right: 0cm, top: 6cm, bottom: 0cm),
     header: header-content,
-    header-ascent: 10%
+    header-ascent: 5%
   )
   
   // Set font family to Lato for the whole document
