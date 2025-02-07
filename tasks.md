@@ -1,0 +1,14 @@
+- Sichtkontrolle Fischtanks
+  - Tote Fische? (Umgehend aus dem Tank entfernen und dokumentieren (Fischbestandsbuch))
+  - Zeigen Fische auffälliges Verhalten? (Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Dokumentieren. Ursachen suchen.)
+  - Belüfter an und Belüftung der Fischtanks ok?
+- Project Work
+  - Code Review (Check pending PRs)
+  - Development Tasks
+    - Write Tests (Ensure coverage above 80%)
+    - Documentation Updates (Keep docs in sync with code)
+  - Team Communication
+- End of Day
+  - Commit Code (Ensure all work is pushed)
+  - Update Status (Report daily progress)
+  - Plan Tomorrow (Set priorities for next day)
