@@ -26,10 +26,10 @@ A Python CLI tool that generates daily checklists by combining tasks from a mark
 ## Usage
 
 ```bash
-python checklist_generator.py generate \
+python checklist_generator.py  \
   <start-date> <end-date> \
   --tasks tasks.md \
-  --calendar Hansaponik.ics \
+  --calendar calendarfile.ics \
   --output checklist.typ \
   --compile
 ```
