@@ -1,6 +1,7 @@
-checklist.typ
-checklist.pdf
-.bak
-.ics
-.pdf
-.md
+output.typ
+*.bak
+*.ics
+*.pdf
+*.md
+.aider*
+.DS_Store
