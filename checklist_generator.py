@@ -98,10 +98,16 @@ def get_calendar_events(ics_file: Path, date: datetime) -> Optional[str]:
                 # Compare only the date parts
                 if event_date.date() == date.date():
                     summary = str(event.get('summary'))
+                    # Strip "???: " prefix if present
+                    if summary.startswith("???: "):
+                        summary = summary[5:]  # Length of "???: " is 5 characters
                     escaped_summary = escape_typst_string(summary)
                     events.append(f"#task(\"{escaped_summary}\")[*{escaped_summary}*]")
             elif event_date == date.date():  # For all-day events that are already date objects
                 summary = str(event.get('summary'))
+                # Strip "???: " prefix if present
+                if summary.startswith("???: "):
+                    summary = summary[5:]  # Length of "???: " is 5 characters
                 escaped_summary = escape_typst_string(summary)
                 events.append(f"#task(\"{escaped_summary}\")[*{escaped_summary}*]")
         
