@@ -34,9 +34,7 @@ PAGE_TEMPLATE = '''
   // Regular tasks
   {tasks}
 
-  // Calendar events for the day
-  == weitere Aufgaben
-  {events}
+  {calendar_section}
 
   // Notes section
   == Notizen und Beobachtungen
@@ -199,10 +197,13 @@ def generate_typst_document(
             events = get_calendar_events(calendar_file, current_date)
             notes = generate_notes_section()
             
+            # Only include calendar section if there are events
+            calendar_section = "// Calendar events for the day\n  == weitere Aufgaben\n  " + events if events else ""
+            
             page = PAGE_TEMPLATE.format(
                 date=eng_date,
                 tasks=tasks,
-                events=events if events else "",
+                calendar_section=calendar_section,
                 notes=notes
             ).replace('Events', 'Termine').replace('Notes', 'Notizen')
             
