@@ -1,5 +1,5 @@
 - Sichtkontrolle Fischtanks
-  - Tote Fische? (Umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch)
+  - Fischgesundheit? (Tote Fische umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch)
   - Zeigen Fische auffälliges Verhalten? (Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Unten dokumentieren. Ursachen suchen.)
   - Belüfter an und Belüftung der Fischtanks ok?
 - Futter aus dem Lager holen und Fische füttern  - 1. Portion. (Fressverhalten beobachten. Unten dokumentieren.)
