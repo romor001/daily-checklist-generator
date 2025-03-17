@@ -5,3 +5,4 @@ output.typ
 *.md
 .aider*
 .DS_Store
+checklist.typ

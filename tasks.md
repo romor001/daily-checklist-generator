@@ -1,6 +1,7 @@
+- Hände desinfizieren
 - Sichtkontrolle Fischtanks
   - Fischgesundheit? (Tote Fische umgehend aus dem Tank entfernen, wiegen und dokumentieren - Fischbestandsbuch)
-  - Zeigen Fische auffälliges Verhalten? (Bsp: schwimmen oben, Randständigkeit, Flashen/Blitzen. Unten dokumentieren. Ursachen suchen.)
+  - Zeigen Fische auffälliges Verhalten? (Bsp: sind oben, Randständigkeit, Flashen. Dokumentieren. Ursachen suchen.)
   - Belüfter an und Belüftung der Fischtanks ok?
 - Futter aus dem Lager holen und Fische füttern  - 1. Portion. (Fressverhalten beobachten. Unten dokumentieren.)
 - Sichtkontrolle Überlauf Open Gutter. (Ggf. Leistung Pumpe Aquakultur erhöhen.)
@@ -9,10 +10,11 @@
 - Sichtkontrolle RFS (Schwimmen Flocken oben? Entfernen und Prozedur „Schlamm ablassen“.)
 - Sichtkontrolle Biofilter (Wasserstand niedrig? Regenwassernachfüllung checken. Ggf. mit Frischwasser füllen.)
 - Sichtkontrolle Sumpftanks (Füllstand ok?)
+- Pumpen und Luftpumpen checken (laufen sie? machen sie komische Geräusche oder Vibrationen?)
 - Hydrokultur E&F Beete
   - Zulaufhähne checken (Sollten weniger als halb offen sein.)
   - Zustand Siphons (Ziehen sie? Stoppen sie?)
-- Pflanzen auf Insektenbefall prüfen
+- Pflanzen auf Insektenbefall prüfen (wenn ja, dann **SOFORT** Nützlinge bestellen) 
 - Füllstand Wasservorrat AutoPots prüfen (ggf. nachfüllen und Nährstoffe und pH justieren)
 - Altes Pflanzenmaterial abpflücken und in den Kompost
 - Fische füttern - 2. Portion.  (Fressverhalten beobachten. Unten dokumentieren.)
