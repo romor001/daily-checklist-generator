@@ -8,7 +8,7 @@ from typing import Optional
 import subprocess
 
 # Configuration
-HEADER_TEXT = "FH Südwestfalen - Kokerei Hansa - Gloria"
+HEADER_TEXT = "FH Südwestfalen - Kokerei Hansa - Victoria"
 LOGO_PATH = "logo.png"  # Logo file in the same directory
 
 # Create Typer app instance
@@ -125,7 +125,7 @@ def generate_notes_section() -> str:
     """Generate lined notes section with double spacing."""
     # Return lines with extra vertical space between them
     # Reduce the number of lines to ensure everything fits on one page
-    return "#line(length: 100%)\n#v(1.4em)\n" * 7
+    return "#line(length: 100%)\n#v(1.4em)\n" * 6
 
 def generate_typst_document(
     start_date: datetime,

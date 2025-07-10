@@ -14,7 +14,8 @@
 - Hydrokultur E&F Beete
   - Zulaufhähne checken (Sollten weniger als halb offen sein.)
   - Zustand Siphons (Ziehen sie? Stoppen sie?)
-- Pflanzen auf Insektenbefall prüfen (wenn ja, dann **SOFORT** Nützlinge bestellen) 
+- Pflanzen auf Insektenbefall prüfen (wenn ja, dann **SOFORT** Nützlinge bestellen)
 - Füllstand Wasservorrat AutoPots prüfen (ggf. nachfüllen und Nährstoffe und pH justieren)
+- Bewässerung und Zustand Jungpflanzen checken (wenn Keimung, dann sofort ans Licht)
 - Altes Pflanzenmaterial abpflücken und in den Kompost
 - Fische füttern - 2. Portion.  (Fressverhalten beobachten. Unten dokumentieren.)
